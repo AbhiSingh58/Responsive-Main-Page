@@ -1,0 +1,169 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.main{width: 100%;
+    min-height: 100vh;
+    /* border: 2px solid red; */
+    padding: 0.5em 0em 0 0em;
+}
+.cont{
+    display: flex;
+    /* border: 2px solid red; */
+
+}
+.l{
+    width: 50%;
+
+    height: 80vh;
+    /* border: 2px solid red; */
+    
+}
+.r::before{
+    content: "";
+    background-image: url("black-and-white-fun-happy-laughing-wallpaper-preview.jpg");
+    background-position:left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;opacity: 0.9;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    clip-path: polygon(35% 0,100% 0,100% 100%,0% 100%);
+
+}
+.r{
+
+    position: relative;
+
+    width: 80%;height: 80vh;
+    
+    /* border: 2px solid red; */
+}
+
+
+
+#uli{
+    /* border: 2px solid red; */
+display: flex;
+    list-style: none;
+    font-size: 1.6vw;
+    
+}
+#uli li{
+    padding:0.3em ;
+    cursor: pointer;
+}
+#uli li:hover{
+    background-color: black;
+    color: white;
+    border-radius: 2em;
+    
+}
+#uli li:active{
+    border-bottom: 2px solid black;
+}
+.nav2{
+    
+    justify-content: flex-end;
+    display: flex;
+    /* justify-content: space-between; */
+    /* position:absolute; */
+  /* z-index: -1; */
+    color: rgb(255, 255, 255);
+
+    /* border: 2px solid red; */
+    font-size: 1.6vw;
+
+} 
+.nav2 i{
+    padding: 0.4em;
+    cursor: pointer;
+
+}
+.cen{
+    /* border: 2px solid red; */
+    text-align: center;
+}
+#mh{
+    margin-top: 7vw;
+    display: inline-block;
+    text-align: left;
+font-size: 5.5vw;
+    /* border: 2px solid red; */
+
+}
+#mp{
+    display: inline-block;
+    text-align: left;
+    padding: 0.5em;
+font-size: 1.5vw;
+
+}
+#b{
+ 
+background-color: black;
+color: white;
+border-radius: 2em;
+    margin-top: 1em;
+    width: 7em;
+    height: 2.5em;
+    font-size:1.2vw;
+    cursor: pointer;
+}
+#b:hover{
+    background-color: rgb(39, 37, 37);
+    color: rgb(250, 240, 240);
+
+}
+.gridc{
+    /* border-top: 2px solid black; */
+    height:18.3vh;
+    background-color: rgb(39, 37, 37);
+    display: flex;
+    padding-left: 10vw;
+    padding-right: 10vw;
+
+    /* border: 2px solid red; */
+}
+.sam{
+    /* font-size: 2vw; */
+    text-align: center;
+color: white;
+    width: 30vw;
+    /* border: 2px solid red; */
+    position: relative;
+
+}
+.ic{
+    position: absolute;
+    left: 10vw;
+    top: -2.5vw;
+    /* margin-top: -2vw; */
+    background-color: rgb(245, 151, 0);
+    color: rgb(250, 240, 240);
+    display: inline-block;
+    font-size: 2vw;
+    padding: 0.4em;
+    width: 5vw;
+    /* height: 5vh; */
+    border-radius: 69%;
+    margin-bottom: 0.1em;
+
+    /* border: 2px solid red; */
+
+}
+.pp{
+    margin-top:3vw;
+
+    font-size:1.3vw;
+
+}
+.pp2{
+    margin-top: 1.6vw;
+    font-size:1.3vw;
+
+
+    
+}
